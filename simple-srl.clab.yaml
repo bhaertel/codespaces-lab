@@ -1,0 +1,12 @@
+name: simple-srl
+
+topology:
+  nodes:
+    srlA:
+      kind: nokia_srlinux
+      image: ghcr.io/nokia/srlinux
+    srlB:
+      kind: nokia_srlinux
+      image: ghcr.io/nokia/srlinux
+  links:
+    - endpoints: ["srlA:e1-1", "srlB:e1-1"]
