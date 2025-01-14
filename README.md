@@ -9,7 +9,7 @@
 
 **[Run](https://codespaces.new/bhaertel/codespaces-lab?quickstart=1) this lab in GitHub Codespaces for free**.  
 [Learn more](https://containerlab.dev/manual/codespaces) about Containerlab for Codespaces.  
-<small>Machine type: 2 vCPU · 8 GB RAM</small>
+<small>Machine type: 4 vCPU · 8 GB RAM</small>
 </div>
 
 ---

@@ -1,0 +1,12 @@
+name: vjunos
+
+topology:
+  nodes:
+    junos1:
+      kind: juniper_vjunosswitch
+      image: vrnetlab/vr-vjunosswitch:23.4R2-S2.1
+    junos2:
+      kind: juniper_vjunosswitch
+      image: vrnetlab/vr-vjunosswitch:23.4R2-S2.1
+  links:
+    - endpoints: ["junos1:eth1", "junos2:eth1"]
