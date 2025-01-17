@@ -1,0 +1,13 @@
+name: simple-eos
+
+topology:
+  nodes:
+    eosA:
+      kind: arista_ceos
+      image: arista/ceos:4.30.9M
+    eosB:
+      kind: arista_ceos
+      image: arista/ceos:4.30.9M
+      
+  links:
+    - endpoints: ["eosA:eth1", "eosB:eth1"]
